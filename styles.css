@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Mulish', sans-serif;
+    margin: 0;
 }
 
 /* nav styles */
@@ -69,5 +70,342 @@ body {
 
 .items a {
     text-decoration: none;
+
+}
+
+/* section1 styles */
+
+
+.section1 {
+
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/secone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+    margin: 0 auto;
+
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+
+
+
+.section1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.sectionone-items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.select-items ul {
+
+
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none
+}
+
+.sectionone-items ul li {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.select-items {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.section-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+}
+
+.sectiontwo .tour-description {
+    display: block;
+}
+
+/* section2  style */
+
+.sectiontwo {
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+
+}
+
+.tour-description h6 {
+
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* .tour-description {
+    border: 2px solid blue;
+}
+
+.tour-image {
+    border: 2px solid blue;
+} */
+.tour-description p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.tour-description ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tour-description {
+    gap: 10px;
+}
+
+.sectiontwo>.tour-description {
+    display: grid;
+    grid-column-gap: 1em;
+}
+
+/* section 3 */
+
+.sectionthree {
+    margin-top: 100px;
+    /* border: 2px solid black; */
+}
+
+
+.sectionthree>.ch-destination {
+    text-align: center;
+}
+
+.ch-destination h6 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ch-destination p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.ch-destination {
+    column-gap: 24px;
+}
+
+/* sectionfour styke */
+.sectionfour {
+    margin-left: 135px;
+    margin-right: 135px;
+    display: block;
+    border: 2px solid black;
+}
+
+/* section five  */
+
+.sectionFive>.notice {
+
+    text-align: center;
+}
+
+.notice>h3 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.notice>p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+/* section six style  */
+
+.sectionsix {
+    margin-left: 135px;
+    margin-right: 135px;
+    /* border: 2px solid black ; */
+    margin-top: 48px;
+    display: block;
+}
+
+.location {
+    display: flex;
+    gap: 10px;
+
+}
+
+.map>h6,
+.hotel>h6 {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.map>p,
+.hotel>p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.imagehotel,
+.imagemap {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+/* section seven style  */
+
+.sectionseven {
+    margin-top: 10px;
+
+}
+
+.price {
+    text-align: center;
+    margin-left: 434px;
+    margin-right: 434px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+}
+
+.price>h6 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.price>p {
+
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
 
 }
