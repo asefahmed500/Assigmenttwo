@@ -78,7 +78,7 @@ body {
 
 .section1 {
 
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/secone.png');
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('images/secone.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
