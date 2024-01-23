@@ -477,12 +477,12 @@ button {
     flex-direction: row;
 }
 
-.all{
+.all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.all{
+.all {
     margin-left: 535px;
     margin-right: 55px;
 }
@@ -492,7 +492,7 @@ button {
 
 
 .sectionten {
-   
+
     background-image: url('images/first.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -527,12 +527,12 @@ button {
     flex-direction: row;
 }
 
-.all{
+.all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.sectionten >  .all{
+.sectionten>.all {
     margin-left: 55px;
     margin-right: 535px;
 }
@@ -575,22 +575,126 @@ button {
     flex-direction: row;
 }
 
-.all{
+.all {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.all{
+.all {
     margin-left: 535px;
     margin-right: 55px;
 }
 
 /* secttion tweleve style  */
 
-.btn{
-     
-   display: flex;
-   align-items: center;
-   justify-content: center;
+.btn {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* section thirteen style  */
+
+.thirteen {
+    margin-top: 100px;
+
+}
+
+.thirteendiv {
+    margin-left: 135px;
+    margin-right: 135px;
+    display: flex;
+    column-gap: 40px;
+}
+
+
+
+.first>h6 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    /* 150% */
+}
+
+.first>p {
+    color: #5A5A5D;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.first>ul {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.second {
+    margin-top: 90px;
+}
+
+/* section fourteen style  */
+
+.fourteendiv {
+
+    margin-top: 100px;
+
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.fourteendiv {
+    display: flex;
+    column-gap: 70px;
+}
+
+
+/* footer style  */
+
+.fifteeen {
+
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    
+    flex-shrink: 0;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+  .footer-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   } 
+
+ .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fifteeendiv{
+    margin-left: 600px;
+    margin-right: 600px;
+    
+}
+
+.footer-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
